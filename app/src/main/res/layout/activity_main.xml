@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ryana.verticleprototype.MainActivity">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="125dp"
+        android:layout_height="101dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="93dp"
+        android:onClick="MedicationScreen"
+        android:text="@string/medication"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="51dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="125dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="93dp"
+        android:onClick="NextReminderScreen"
+        android:text="@string/next_reminder"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="51dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="51dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="125dp"
+        android:layout_height="101dp"
+        android:layout_marginLeft="51dp"
+        android:onClick="CalendarScreen"
+        android:text="@string/calendar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="134dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        android:layout_marginStart="51dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="125dp"
+        android:layout_height="101dp"
+        android:onClick="StoreLocatorScreen"
+        android:text="@string/store_locator"
+        android:layout_marginRight="51dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="134dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        android:layout_marginEnd="51dp" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        ads:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        ads:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp">
+    </com.google.android.gms.ads.AdView>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="70dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="UsersScreen"
+        android:text="@string/Users"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

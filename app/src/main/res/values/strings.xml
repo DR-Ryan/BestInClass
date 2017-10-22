@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Vertical Prototype</string>
+    <string name="medication">Medications</string>
+    <string name="next_reminder">Next Reminder</string>
+    <string name="calendar">Calendar</string>
+    <string name="store_locator">Store Locator</string>
+    <string name="medication_name">Enter Medication Name</string>
+    <string name="medication_dosage">Enter Dosage</string>
+    <string name="Date_taken">Date Taken</string>
+    <string name="Sunday">Sunday</string>
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+    <string name="repeat">Repeat?</string>
+    <string name="Users">Users</string>
+    <string name="Add">Add User</string>
+    <string name="Edit">Edit User</string>
+    <string name="Delete">Delete User</string>
+    
+    <string-array name="Times">
+        <item>Hours</item>
+        <item>Days</item>
+        <item>Weeks</item>
+    </string-array>
+
+    <string-array name="Gender">
+        <item></item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+</resources>
